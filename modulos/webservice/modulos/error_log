@@ -1,0 +1,185 @@
+[21-Oct-2014 10:28:29 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'Serialization of 'SimpleXMLElement' is not allowed' in [no active file]:0
+Stack trace:
+#0 {main}
+  thrown in [no active file] on line 0
+[21-Oct-2014 10:29:58 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'Serialization of 'SimpleXMLElement' is not allowed' in [no active file]:0
+Stack trace:
+#0 {main}
+  thrown in [no active file] on line 0
+[24-Nov-2014 17:22:56 America/Denver] PHP Parse error:  syntax error, unexpected T_ECHO in /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php on line 11
+[09-Dec-2014 10:39:30 America/Denver] PHP Catchable fatal error:  Object of class DOMText could not be converted to string in /home/kiacom/public_html/webservice-test/webservice/funciones.php on line 202
+[09-Dec-2014 10:41:48 America/Denver] PHP Catchable fatal error:  Object of class DOMElement could not be converted to string in /home/kiacom/public_html/webservice-test/webservice/funciones.php on line 204
+[17-Dec-2014 09:06:15 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/kiacom/public_html/webservice-test/webservice/funciones.php:37
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/kiacom/public_html/webservice-test/webservice/funciones.php(37): SoapClient->__call('getLocales', Array)
+#2 /home/kiacom/public_html/webservice-test/webservice/funciones.php(37): SoapClient->getLocales(Array)
+#3 /home/kiacom/public_html/webservice-test/webservice/funciones.php(268): getLocal('KIA', 'KP', 'VENTAS', Object(SimpleXMLElement))
+#4 /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php(8): getXML('KIA', 'KP', 'VENTAS')
+#5 {main}
+  thrown in /home/kiacom/public_html/webservice-test/webservice/funciones.php on line 37
+[17-Dec-2014 09:16:06 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php:21
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php(21): SoapClient->__call('InsertaCotizaci...', Array)
+#2 /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php(21): SoapClient->InsertaCotizacion(Array)
+#3 {main}
+  thrown in /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php on line 21
+[23-Dec-2014 09:03:35 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/kiacom/public_html/webservice-test/webservice/obtenerDistritos.php:19
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/kiacom/public_html/webservice-test/webservice/obtenerDistritos.php(19): SoapClient->__call('getDistritos', Array)
+#2 /home/kiacom/public_html/webservice-test/webservice/obtenerDistritos.php(19): SoapClient->getDistritos(Array)
+#3 {main}
+  thrown in /home/kiacom/public_html/webservice-test/webservice/obtenerDistritos.php on line 19
+[23-Dec-2014 09:04:02 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php:21
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php(21): SoapClient->__call('InsertaCotizaci...', Array)
+#2 /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php(21): SoapClient->InsertaCotizacion(Array)
+#3 {main}
+  thrown in /home/kiacom/public_html/webservice-test/webservice/insertarCotizacion.php on line 21
+[07-Jul-2015 01:02:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 108
+[07-Jul-2015 18:27:58 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Service Unavailable in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php:103
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(103): SoapClient->__call('getMarcas', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(103): SoapClient->getMarcas(Array)
+#3 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(220): getIdMarca('CHERY')
+#4 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(8): getXML('CHERY', 'KP', 'VENTAS')
+#5 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 103
+[10-Jul-2015 15:25:24 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at WS_Cotiza_IT.Inserta.procesaXML(XmlDocument xDoc)
+   at WS_Cotiza_IT.Inserta.insertCotiza(String _xmlData, String _user, String _pass)
+   at WS_Cotiza_IT.InsertaCotizacionIT.InsertaCotizacion(String _xmlData, String _user, String _pass)
+   --- End of inner exception stack trace --- in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php:21
+Stack trace:
+#0 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(21): SoapClient->__call('InsertaCotizaci...', Array)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(21): SoapClient->InsertaCotizacion(Array)
+#2 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 21
+[17-Jul-2015 14:25:13 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at WS_Cotiza_IT.Inserta.procesaXML(XmlDocument xDoc)
+   at WS_Cotiza_IT.Inserta.insertCotiza(String _xmlData, String _user, String _pass)
+   at WS_Cotiza_IT.InsertaCotizacionIT.InsertaCotizacion(String _xmlData, String _user, String _pass)
+   --- End of inner exception stack trace --- in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php:21
+Stack trace:
+#0 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(21): SoapClient->__call('InsertaCotizaci...', Array)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(21): SoapClient->InsertaCotizacion(Array)
+#2 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 21
+[23-Jul-2015 19:26:58 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php:54
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(54): SoapClient->__call('getDistritos', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(54): SoapClient->getDistritos(Array)
+#3 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(272): getZona('LIMA', 'NO HAY DISPONIB...')
+#4 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(8): getXML('CHERY', 'KP', 'VENTAS')
+#5 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 54
+[23-Jul-2015 19:34:51 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php:37
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(37): SoapClient->__call('getLocales', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(37): SoapClient->getLocales(Array)
+#3 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(273): getLocal('CHERY', 'KP', 'VENTAS', Object(SimpleXMLElement))
+#4 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(8): getXML('CHERY', 'KP', 'VENTAS')
+#5 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 37
+[30-Jul-2015 11:09:03 America/Denver] PHP Catchable fatal error:  Argument 1 passed to DOMNode::appendChild() must be an instance of DOMNode, null given, called in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 8 and defined in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 259
+[30-Jul-2015 11:09:48 America/Denver] PHP Catchable fatal error:  Argument 1 passed to DOMNode::appendChild() must be an instance of DOMNode, null given, called in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 8 and defined in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 259
+[30-Jul-2015 11:11:44 America/Denver] PHP Catchable fatal error:  Argument 1 passed to DOMNode::appendChild() must be an instance of DOMNode, null given, called in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 8 and defined in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 259
+[30-Jul-2015 11:23:02 America/Denver] PHP Catchable fatal error:  Argument 1 passed to DOMNode::appendChild() must be an instance of DOMNode, null given, called in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 8 and defined in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 259
+[30-Jul-2015 11:29:47 America/Denver] PHP Catchable fatal error:  Argument 1 passed to DOMNode::appendChild() must be an instance of DOMNode, null given, called in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 8 and defined in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 259
+[30-Jul-2015 11:33:47 America/Denver] PHP Catchable fatal error:  Argument 1 passed to DOMNode::appendChild() must be an instance of DOMNode, null given, called in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 8 and defined in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 259
+[30-Jul-2015 11:35:44 America/Denver] PHP Catchable fatal error:  Argument 1 passed to DOMNode::appendChild() must be an instance of DOMNode, null given, called in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 8 and defined in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 259
+[30-Jul-2015 11:37:34 America/Denver] PHP Catchable fatal error:  Argument 1 passed to DOMNode::appendChild() must be an instance of DOMNode, null given, called in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 8 and defined in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 259
+[07-Aug-2015 14:41:04 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 108
+[07-Aug-2015 14:41:05 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 84
+[07-Aug-2015 14:41:05 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 58
+[07-Aug-2015 14:43:56 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 140
+[07-Aug-2015 14:43:56 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 108
+[07-Aug-2015 14:43:57 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 84
+[07-Aug-2015 14:43:57 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 58
+[07-Aug-2015 15:03:32 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php on line 26
+[12-Aug-2015 06:20:04 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php:19
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php(19): SoapClient->__call('getProvincias', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php(19): SoapClient->getProvincias(Array)
+#3 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php on line 19
+[12-Aug-2015 12:25:42 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php:41
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(41): SoapClient->__call('InsertaCotizaci...', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(41): SoapClient->InsertaCotizacion(Array)
+#3 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 41
+[14-Aug-2015 09:33:23 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php:37
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(37): SoapClient->__call('getLocales', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(37): SoapClient->getLocales(Array)
+#3 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(321): getLocal('CHERY', 'KP', 'VENTAS', 0)
+#4 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(15): getXML('CHERY', 'KP', 'VENTAS')
+#5 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 37
+[14-Aug-2015 10:02:46 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php:135
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(135): SoapClient->__call('getDistritos', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(135): SoapClient->getDistritos(Array)
+#3 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(182): getIdEntityDistrito('CALLAO', 'CALLAO', 'VENTANILLA')
+#4 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(15): getXML('CHERY', 'KP', 'VENTAS')
+#5 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 135
+[14-Aug-2015 10:27:29 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/cherycom/public_html/modulos/webservice/modulos/obtenerDistritos.php:21
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/obtenerDistritos.php(21): SoapClient->__call('getDistritos', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/obtenerDistritos.php(21): SoapClient->getDistritos(Array)
+#3 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/obtenerDistritos.php on line 21
+[14-Aug-2015 10:43:47 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php:103
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(103): SoapClient->__call('getMarcas', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(103): SoapClient->getMarcas(Array)
+#3 /home/cherycom/public_html/modulos/webservice/modulos/funciones.php(268): getIdMarca('CHERY')
+#4 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(15): getXML('CHERY', 'KP', 'VENTAS')
+#5 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/funciones.php on line 103
+[14-Aug-2015 10:55:47 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php:19
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php(19): SoapClient->__call('getProvincias', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php(19): SoapClient->getProvincias(Array)
+#3 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php on line 19
+[14-Aug-2015 10:55:54 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php:19
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php(19): SoapClient->__call('getProvincias', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php(19): SoapClient->getProvincias(Array)
+#3 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php on line 19
+[18-Aug-2015 17:37:18 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php:19
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://crm.skbe...', 'http://www.huma...', 1, 0)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php(19): SoapClient->__call('getProvincias', Array)
+#2 /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php(19): SoapClient->getProvincias(Array)
+#3 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/obtenerProvincia.php on line 19
+[27-Aug-2015 19:49:29 America/Denver] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] System.Web.Services.Protocols.SoapException: Server was unable to process request. ---> System.UnauthorizedAccessException: Access to the path 'D:\Humano2\Balanceo\WS_SKPERU\files\xml_wsWEBIT\27082015204925.xml' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.Delete(String path)
+   at WS_Cotiza_IT.Inserta.insertCotiza(String _xmlData, String _user, String _pass)
+   at WS_Cotiza_IT.InsertaCotizacionIT.InsertaCotizacion(String _xmlData, String _user, String _pass)
+   --- End of inner exception stack trace --- in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php:37
+Stack trace:
+#0 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(37): SoapClient->__call('InsertaCotizaci...', Array)
+#1 /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php(37): SoapClient->InsertaCotizacion(Array)
+#2 {main}
+  thrown in /home/cherycom/public_html/modulos/webservice/modulos/insertarCotizacion.php on line 37

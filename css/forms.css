@@ -1,0 +1,713 @@
+/*-- Formularios --*/
+
+
+/*---MG3------*/
+
+form#cotizar-mg3 input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 270px;
+    height: 23px;
+    background: #e1b600; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin-bottom: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+.mg3-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 220px;
+    height: 23px;
+    background: #e1b600; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+form#cotizar-mg3 textarea{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width:270px;
+    height:100px;
+    background: #e1b600; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+}
+
+
+/*---MG3XROSS------*/
+
+form#cotizar-mg3xross input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 270px;
+    height: 23px;
+    background: #FF7200; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin-bottom: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+.mg3xross-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 220px;
+    height: 23px;
+    background: #FF7200; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+form#cotizar-mg3xross textarea{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width:270px;
+    height:100px;
+    background: #FF7200; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+}
+
+
+
+/*---MG350------*/
+
+form#cotizar-mg350 input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 270px;
+    height: 23px;
+    background: #136296; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin-bottom: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+.mg350-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 220px;
+    height: 23px;
+    background: #136296; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+form#cotizar-mg350 textarea{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width:270px;
+    height:100px;
+    background: #136296; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+}
+
+
+/*---MG5------*/
+
+form#cotizar-mg5 input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 270px;
+    height: 23px;
+    background: #A62D94; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin-bottom: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+.mg5-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 220px;
+    height: 23px;
+    background: #A62D94; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+form#cotizar-mg5 textarea{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width:270px;
+    height:100px;
+    background: #A62D94; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+}
+
+
+/*---MG6------*/
+
+form#cotizar-mg6 input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 270px;
+    height: 23px;
+    background: #d62827; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin-bottom: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+.mg6-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 220px;
+    height: 23px;
+    background: #d62827; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+form#cotizar-mg6 textarea{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width:270px;
+    height:100px;
+    background: #d62827; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+}
+
+
+/*---COTIZAR------*/
+
+form#formulario-cotizar input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 315px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin-bottom: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+.cotizar-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 220px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+form#formulario-cotizar textarea{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width:315px;
+    height:100px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+}
+
+
+
+/*---NEWSLETTER HOME------*/
+
+form#newsletter-form input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 244px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin-bottom: 10px;
+    margin-left: 30px;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+
+.cotizar-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 220px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+.boton-enviar{margin-left: 0px; clear: both;}
+.boton-enviar-home{margin-left: 30px;}
+.boton-enviar-financia{margin-left: 0px; clear: both;}
+
+
+.color-mg3, .color-mg3xross, .color-mg350, .color-mg5, .color-mg6 {display: none;}
+
+
+/* --- Recomiendanos Home ------*/
+
+
+
+form#form-lifestyle input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 250px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin: 5px auto;
+
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+.boton-enviar-lifestyle{
+    float: right;
+    padding-top: 15px;
+
+}
+
+/*-- Mantenimiento --*/
+
+.fecha-bloque{margin-right: 20px;}
+.modelo-bloque{float: left; margin-right: 15px;}
+.colores-bloque{float: left; margin-right: 20px;}
+.fecha-bloque p{font-family: 'oswaldlight', Arial, sans-serif; font-size: 14px; color: #353535;}
+.fecha {width: 125px!important;}
+.placa {width: 180px!important;}
+.pais{}
+
+/* Cotizar */
+.modelo-nombre{width: 150px; float: left;}
+.colores-bloque select{width: 150px; float: left;}
+
+.telefono-bloque{float: left; margin-right: 15px;}
+.dni-bloque{float: left; margin-right: 15px;}
+.email-input{width: 315px!important;}
+
+.telefono-input, .dni-input{width: 270px!important;}
+
+#cotizar-content h2{font-family: 'oswaldregular', Arial, sans-serif; font-size: 23px; float: left; margin: 0 10px 0 0; padding: 0 10px 0 0; border-right: 1px solid #7c7c7c;}
+#cotizar-content span{font-family: 'oswaldlight', Arial, sans-serif; font-size: 16px; float: left; line-height: 35px; vertical-align: bottom; margin-right: 20px;}
+
+#form-financia{
+    position: relative; 
+    float: left; 
+    width: 100%; 
+    padding: 70px 0 0 150px;
+    height: 345px;
+    display: none;
+    background: url("../images/cotizar/financia-bkgr.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.cuotas-data{float: left; margin-right: 50px;}
+.cuotas-data span{display: block; float: left; font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px;}
+.cuotas-data ul{list-style: none; padding: 0;}
+.cuotas-data label{font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px;}
+.plazos-data{float: left;}
+.plazos-data ul{list-style: none; padding: 0;}
+.plazos-data label{font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px;}
+.dni-input-2{width: 350px!important;}
+
+.cuota-item{ overflow: hidden; margin-bottom: 25px;}
+.cuota-item li{ overflow: hidden; padding: 0 0 0 20px;}
+.cuota-item input[type="text"]{font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px;}
+
+.plazos-combo span{font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px; float: left; padding-right: 20px;}
+.plazos-combo select{font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px;}
+.plazos-combo{display: block; overflow: hidden; margin-bottom: 15px;}
+.plazos-data span{font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px; float: left;}
+.plazos-data li{overflow: hidden; padding: 0 0 0 20px;}
+
+/* Cotizar */
+
+
+
+.titulo-cotizar{width: 100%; height: 35px; vertical-align: middle; left: 35px; margin: 60px 0 0 70px;}
+.financia{width: 335px; float: right;}
+form#formulario-mantenimiento input[type="text"]{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 380px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    margin-bottom: 10px;
+    }
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #2c2c2c;
+    padding-left: 5px;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#2c2c2c;
+    padding-left: 5px;
+    }
+
+.mantenimiento-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 270px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+form#formulario-mantenimiento textarea{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width:380px;
+    height:100px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+}
+
+
+.accesorios-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 180px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+.talleres-input{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color:#2c2c2c;
+    width: 200px;
+    height: 23px;
+    background: #e5e5e5; 
+    border: #eeeeee solid 1px;
+    border-top: #876d00 solid 1px;
+    border-left: #876d00 solid 1px;
+    -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 3px 8px rgba(0,0,0,.24);
+    resize:none;
+    margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 768px){
+
+form#formulario-cotizar input[type="text"]{width: 350px;}
+form#formulario-cotizar textarea{width: 350px;}
+
+@media screen and (max-width: 480px){
+
+form#formulario-cotizar input[type="text"]{width: 100%;}
+form#formulario-cotizar textarea{width: 100%;}
+
+}

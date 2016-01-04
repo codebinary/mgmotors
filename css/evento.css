@@ -1,0 +1,16 @@
+#evento {
+	background: url(../images/evento/bg.jpg) no-repeat 0 0 transparent;
+	height: 856px;
+	padding: 65px 0 0 0;
+	position: relative;
+	width: 1000px;
+}
+
+#streamperu_wrapper{
+	/* background: url(../images/evento/video.jpg) no-repeat 0 0 transparent; */
+	height: 382px;
+	width: 640px;
+	position: relative;
+	top: 151px;
+	left: 191px;
+}

@@ -1,0 +1,62 @@
+@import url("../fonts/oswald/stylesheet.css");
+@import url("/css/bootstrap.css");
+@import url("forms.css");
+@import url("main.css");
+
+
+.slidesjs-container{
+	position: relative;
+	width: 100%!important;
+}
+
+.slidesjs-container img{
+	width: 100%!important;
+}
+
+.slidesjs-control{width: 100%!important;}
+
+.slidesjs-pagination{
+	display: inline-block;
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 10;
+	left: 46%;
+	bottom:8%;
+}
+
+.slidesjs-pagination-item{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.slidesjs-pagination-item a{
+	display: block;
+	background: url("../images/bannerhome/slide/botonOff.png");
+	width: 13px;
+	height: 13px;
+	font-size: 0;
+}
+
+
+.slidesjs-pagination-item a:hover{
+	display: block;
+	background: url("../images/bannerhome/slide/botonOn.png");
+	width: 13px;
+	height: 13px;
+}
+
+
+.active{
+	display: block;
+	background: url("../images/bannerhome/slide/botonOn.png")!important;
+	width: 13px!important;
+	height: 13px!important;
+}
+
+
+@media screen and (max-width: 480px){
+.slidesjs-pagination{left: 35%;}
+}

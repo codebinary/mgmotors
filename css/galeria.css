@@ -1,0 +1,22 @@
+@import url("../fonts/oswald/stylesheet.css");
+@import url("bootstrap.css");
+@import url("forms.css");
+@import url("main.css");
+
+
+#colores-modelo h2{font-family: 'oswaldlight', Arial, sans-serif; font-size: 16px; padding: 0; margin: 20px 0 4px 0;}
+.nom-color{font-family: 'oswaldbold', Arial, sans-serif; font-size: 14px; padding: 0;}
+#color-auto a{ display: inline-block;}
+#paleta-colores img{ border:solid 1px #898989; cursor: pointer;}
+.selected{ border:solid 2px #942E2E!important;}
+.nom-selected{font-family: 'oswaldbold', Arial, sans-serif; font-size: 14px; padding: 0; display: block!important;}
+#nom-colores li{display: none;}
+
+/* Smartphone */
+
+@media screen and (max-width: 768px){
+
+#colores-modelos{display: none;}
+#colores-modelo-mobile h2{font-family: 'oswaldlight', Arial, sans-serif; font-size: 16px; padding: 0; margin: 20px 0 4px 0;}
+
+}

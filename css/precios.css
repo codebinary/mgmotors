@@ -1,0 +1,6 @@
+@import url("../fonts/oswald/stylesheet.css");
+
+.cabecera{font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px; background: #000000; color: #ffffff; text-align: center; text-transform: uppercase; padding: 5px 25px;}
+td{font-family: 'oswaldlight', Arial, sans-serif; font-size: 12px; color: #000000; text-align: center; padding: 10px 25px; border-bottom: 1px dotted #bcbcbc;}
+.modelo-precio{font-family: 'oswaldregular', Arial, sans-serif; font-size: 12px; color: #000000; text-align: center; text-transform: uppercase; padding: 15px 25px;}
+.legal-tb{text-align: center;margin-top:15px;font-family: 'oswaldlight', Arial, sans-serif;}

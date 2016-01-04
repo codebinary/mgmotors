@@ -1,0 +1,520 @@
+@import url("../fonts/oswald/stylesheet.css");
+@import url("bootstrap.css");
+@import url("forms.css");
+@import url("slide.css");
+
+/* iPads (portrait) ----------- */
+@media screen and (max-width: 768px) {
+	#santander img{margin-left: 184px!important;}
+    #form-mantenimiento-mg{padding: 60px;} 
+    #financiamiento-content{height: 2113px!important;}
+    #santander-logo{margin-left: 22%!important;}
+	#menu-principal{display: none;}
+	.menu-mobile-smart{display: none;}
+	#menu-mobile{
+		display: block!important;
+		height: 70px; 
+		background: #222222; 
+		position: absolute; 
+		width: 100%; 
+		z-index: 21;
+	}
+	#social-home,#promocion-banner{z-index: 1;}
+	.menu-top{width: 768px;}
+	.logomg{width: 179px;}
+	.menu-top li{width: 95px;}
+
+	#bannerhome-content {position: relative; width: 100%; margin: 0 auto;}
+
+	#menu-modelos-mobile{
+	width: 100%;
+    position: absolute;
+    z-index: 11;
+    background: url("../images/menu-modelos/backg.png");
+    padding-top: 80px;
+    padding-bottom: 15px;
+	}
+	#menu-modelos-mobile ul{overflow: hidden;}
+	#menu-modelos-mobile li{float: left;}
+	.carOff{top: 14px;}
+	.modulo2{display: none;}
+	.isomg{position: absolute; right: -30px;}
+	.isomg img{height: 60px;}
+	.footer-blanco{padding-bottom: 30px;}
+	.subfooter{width:100%;}
+	.enlaces-footer li{font-size: 10px;}
+
+/* Banner Inferiores */
+
+#banners{width: 100%;}
+.modulo-tablet{display: block;}
+/*.banner-modelos{float: left; width: 50%;}*/
+.banner-modelos,
+.banner-ukdesign,
+.banner-historia,
+.banner-lifestyle,
+.banner-promociones,
+.banner-testimoniales,
+.banner-noticias{
+	float: left; width: 50%;
+	position: relative!important;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.banner-modelos img{width: 100%}
+.banner-ukdesign img{width: 100%}
+.banner-historia img{width: 100%}
+.banner-lifestyle img{width: 100%}
+.banner-promociones img{width: 100%}
+.banner-testimoniales img{width: 100%}
+.banner-noticias img{width: 100%}
+
+
+/*---------Slide Home---------*/
+
+.slidesjs-container{ position: relative; width: 100%!important;}
+.slidesjs-container img{ width: 100%!important;}
+.slidesjs-control{width: 100%!important;}
+
+.botones-home{display: none;}
+
+.lifestyle-prom{
+	width:50%;
+	float:left;
+}
+
+/*--------- Bannner Inferiores -------*/
+
+.banner-cotizar{position:relative; width: 100%; top: 0px; left: 0;}
+.banner-cotizar img{width: 100%;}
+.banner-historia{width: 100%;}
+.banner-historia img{width: 100%;}
+.banner-lifestyle{width: 100%;}
+.banner-promociones{width: 100%;}
+
+/* Promociones */
+
+.cotizar{padding: 60px 35px 35px 35px;}
+#linea-titulo-promociones{width: 80%;}
+#aviso{width: 540px; margin: 0 auto;}
+#datos-promocion{margin: 0;}
+
+
+/* Cotizar */
+#linea-titulo-cotizar{width: 80%;}
+.modelo-mg3,
+.modelo-mg350,
+.modelo-mg3xross,
+.modelo-mg5{display: none;}
+#cotizar-content span{display: none;}
+#form-cotizar-mg{float: none; margin: 0;}
+.boton-enviar{clear: both; margin-left: 0;}
+#form-cotizar-mg{width: 350px; margin: 50px auto 0 auto;}
+#cotizar-content{background: #f7f7f7;}
+
+/* Historia */
+
+.thumbs-videos{clear: both; width: 100%; margin-top: 10px;}
+.thumbs-videos ul {width: 100%; padding: 0 50px;}
+.thumbs-videos li{float: left; width: 155px; margin-left: 10px; background-size: 100%;}
+.thumbs-videos li:first-child{margin-left: 0;}
+.thumbs-videos ul img{width: 100%;}
+.videos-historia{margin: 0;}
+.video-banner{width: 100%; padding: 0 50px;}
+.video-banner iframe{width: 100%;}
+#timeline-menu{width: 100%; margin-top: 20px;}
+#timeline-menu ul{width: 100%;}
+#timeline-menu li{
+	width: 130px;
+	font-size: 20px;
+	padding:10px;
+	text-align: center;
+}
+#timeline-menu li:hover{
+	font-size: 20px;
+	padding:10px!important;
+	text-align: center;
+}
+.year-current{width: 130px;padding:10px!important; text-align: center;}
+.arrow-timeline{top:30px;}
+#historia-content{width: 100%;}
+#content-1 {width: 100%;}
+.carro1924{width: 60%;}
+.carro1924 img{width: 100%;}
+.desc1924{padding: 0 0 0 20px; width: 254px;}
+.desc1933{width: 40%;}
+.carro1933{width: 60%;}
+.carro1933 img{width: 100%;}
+.carro1962{width: 60%; float: right;}
+.carro1962 img{width: 100%;}
+
+/* Empresa */
+
+.baner-corporativo{width: 100%;}
+.filosofia-texto{padding-left: 30px; padding-top: 0; margin-top: 30px;}
+.mg-antiguo{margin-top: 30px;}
+.mg-antiguo img{width: 100%;}
+
+/* SK Berge */
+
+.banner-skberge{width: 100%;}
+
+/* Saic Motors */
+
+.banner-saic{width: 100%;}
+#saic-logo{display: none;}
+#local-foto img{width: 100%; margin-right:0;}
+
+/* Noticias */
+
+#linea-titulo-noticias{width: 88%;}
+#noticia-descripcion{width: 100%;}
+.vermas{margin: 0!important; width: 100%!important;}
+#lista-noticias li{margin-left: 25px; margin-right: 0;}
+#lista-noticias li:first-child{margin-left: 0px;}
+.compartir-noticia-bottom li{width: 40%!important; float: left;}
+#noticia-descripcion h2{margin-left: 0;}
+#noticia-descripcion p{margin-left: 0;}
+.compartir-noticia{margin-left: 0;}
+.vermas-lista{padding: 0;}
+
+}
+
+@media screen and (max-width: 600px){
+	#financiamiento-content{
+		height: 2286px!important;
+	}
+}
+
+@media screen and (max-width: 414px){
+	#aviso{
+		height: 681px;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+	#menu-principal{display: none!important;}
+	#menu-mobile{display: none!important;}
+	.menu-mobile-smart{display: block; background: #000000;}
+	/* .modulo2{display: none;} */
+	/* .modulo3{display: none;} */
+	#bannerhome-content {position: relative; width: 100%; margin: 0 auto; padding-top: 0px;}
+	.botones-home{display: block;}
+	.botones-home ul{list-style: none; margin: 0; padding: 0; overflow: hidden; width: 100%; padding: 0 15px 0 23px; margin-bottom: 20px;}
+	.botones-home li{
+		display: block; 
+		height: 100%; margin: 0; 
+		display: inherit; 
+		float: left;
+		color: #ffffff;
+		font-size: 16px;
+		margin-right: 10px;
+	}
+	.botones-home li:last-child{margin-right: 0;}
+	.botones-home img{height: 24px;}
+	#social-home, #promocion-banner{display: none;}
+	.banner-modelos{width: 100%;}
+	.banner-ukdesign{width: 50%;}
+	.banner-noticias{width: 50%;}
+	.footer-blanco{padding-bottom: 0px;}
+	.banner-noticias{width: 100%;}
+	.banner-ukdesign{width: 100%;}
+	.banner-lifestyle{width: 100%;}
+	.banner-promociones{width: 100%;}
+	.banner-testimoniales{width: 100%;}
+	.lifestyle-prom{width: 100%;}
+	.isomg{display: block; position: relative; right: 0px;}
+	.enlaces-social{text-align: center;}
+	.enlaces-footer li{margin-bottom: 20px; font-size: 13px;}
+	.enlaces-social ul{display: block; width: 100%;}
+	.enlaces-social li{margin-bottom: 20px; display: inline; float: none; font-size: 13px;}
+	.navbar-collapse {background: #2b2b2b;}
+	.modelos-submenu-mobile{background: #212121!important;}
+
+/* ---------- Interior Modelo ----------- */
+
+#logo-auto{margin: 0; padding-left: 20px; line-height: 50px; overflow: hidden; float: left; height: 70px;}
+#logo-auto img{ height: 40px;}
+#color-auto img{width: 100%;}
+#descripcion {padding: 0px;}
+.modelo-interior{padding: 0!important;}
+
+.link-modelos li img{width: 100%;}
+.backtop{display: none;}
+
+#colores-modelo{display: none;}
+#colores-modelo-mobile{display: block;}
+
+#botones-modelo{width: 100%; overflow: hidden;}
+#botones-modelo ul{display: block; overflow: hidden;}
+#botones-modelo li{
+	margin-right: 7px;
+	background: url("../images/modelos/mg3/video1-btn.png");
+	background-repeat: no-repeat;
+	padding-bottom: 15px;
+	overflow: hidden;height: 156px;
+	background-position-y: -14px
+}
+#botones-modelo li:last-child{float: left; margin-right: 0px;}
+#botones-modelo li:first-child{float: left; margin-right: 0px;}
+#botones-modelo li img{display: block; height: 126px;}
+
+.fix-padding{position: relative; padding: 0 15px;}
+.banners-modelos-fix{margin-top: 30px; border-top: 1px solid #efefef;}
+.flexslider{height: 159px; background-position-y: -144px; background-size: 100%;}
+
+#diseno{margin-top: 0;}
+
+.diseno-left, .diseno-right{float: none; width: 100%;}
+.diseno-left img{width: 100%;}
+.diseno-right img{width: 100%;}
+#diseno-content{margin-top: 0;}
+.diseno-right-text{padding: 0;}
+#slide-botones{padding-top: 15px;}
+#slide-botones img{width: 100%;}
+#slide-botones ul{margin: 0 auto;}
+#slide-botones li{width: 100%;}
+
+#equipamiento-content{margin-top: 0;}
+#eq-destacado{background: none; height: auto; padding: 5px;}
+
+.eq-texto, .eq-texto-mg3xross{
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+#seguridad-bloque1{margin-bottom: 0;}
+.imagen-bloque1{width: 100%; float: none;}
+.imagen-bloque1 img{width: 100%;}
+
+.texto-bloque1{padding: 0;}
+.abs{width: 100%; padding:0; }
+.abs span{display: block; text-align: center;}
+.abs-lista{display: block; float: none; clear: both; text-align: center;}
+.abs-lista li{display: inline-table; float: none;}
+#abs-texto{padding-bottom: 15px;}
+.imagen-bloque2{width: 100%;}
+.imagen-bloque2 img{width: 100%;}
+
+#texto-cotizar{padding: 30px;}
+#texto-cotizar p{font-size: 16px;}
+#form-cotizar{float: none; margin: 0; padding: 15px;}
+#background-cotizar-mg3,
+#background-cotizar-mg350,
+#background-cotizar-mg3xross,
+#background-cotizar-mg5
+{background: none;}
+
+.mg3-landing{background-size: 100%;}
+.mg350-landing{padding-top: 30px; background-size: 100%;}
+.mg3xross-landing{padding-top: 30px; background-size: 100%;}
+.mg5-landing{padding-top: 20px; background-size: 100%;}
+
+/* MG350 */
+
+#disenomg350-left{width: 100%; padding: 25px 0; float: none;}
+#disenomg350-left img{height: 400px;}
+#disenomg350-right{float: none; width: 100%; padding: 0 15px;}
+#eq-destacado-mg350{background: none; height: auto; padding: 5px; margin: 10px 0;}
+.eq-texto-mg350{display: block; position: relative; width: 100%; height: auto; top: 0; left: 0;}
+.texto-bloque1-mg350{width: 100%; padding: 0;}
+#seguridad-bloque1-MG350{width: 100%; padding: 10px;}
+.logo-mg350{ padding-left: 0!important; height: 40px;}
+.logo-mg350 img{height: 25px!important; margin-right: 10px;}
+
+
+
+/* MG3XROSS */
+#disenomg3xross-left{width: 100%; padding: 25px 0; float: none; text-align: center;}
+.mg3xross-desc-img{width: 100%}
+.mg3xross-desc-img img{width: 100%;}
+#disenomg3xross-left img{height: 400px;}
+.mg3xross-desc-img{padding-top: 10px;}
+#disenomg3xross-right{float: none; width: 100%; padding: 0 15px;}
+#eq-destacado-mg3xross{background: none; height: auto; padding: 5px; margin: 10px 0;}
+.eq-texto-mg3xross{display: block; position: relative; width: 100%; height: auto; top: 0; left: 0;}
+.texto-bloque1-mg3xross{width: 100%; padding: 0;}
+#seguridad-bloque1-MG3xross{width: 100%; padding: 10px;}
+.logo-mg3xross{ padding-left: 0!important; height: 40px;}
+.logo-mg3xross img{height: 25px!important;}
+.texto-bloque2-mg3xross{padding: 25px 15px 0 15px;}
+.logo-mg3xross{ padding-left: 0!important; height: 30px;}
+.logo-mg3xross img{height: 23px!important;}
+
+/* MG5 */
+
+#disenomg5-left{width: 100%; padding: 25px 0; float: none; text-align: center;}
+#disenomg5-left img{width: 100%;}
+#disenomg5-right{float: none; width: 100%; padding: 0 15px;}
+#texto-mg5{width: 100%; padding: 0;}
+#texto-mg5 img{width: 100%;}
+#eq-destacado-mg5{background: none; height: auto; padding: 5px; margin: 10px 0;}
+.eq-texto-mg5{display: block; position: relative; width: 100%; height: auto; top: 0; left: 0;}
+#seguridad-bloque1-mg5{width: 100%; padding: 10px;}
+.texto-bloque1-mg5{width: 100%; padding: 0;}
+.imagen-bloque1-mg5{width: 100%; margin-top: 20px;}
+.imagen-bloque1-mg5 img{width: 100%;}
+#seguridad-bloque2-mg5{width: 100%;}
+.logo-mg5{ padding-left: 0!important; height: 40px;}
+.logo-mg5 img{height: 30px!important; margin-right: 10px;}
+#enlace-turbo{display: none;}
+#enlace-turbo-mobile{
+	border-left: none!important;
+	padding: 0;
+	margin: 20px;
+    font-family: 'oswaldregular', Arial, sans-serif;
+    font-size: 18px;
+    border-left: 2px solid #bbbbbb;
+}
+#enlace-turbo-mobile span{color:#A52D94!important;}
+#enlace-turbo-mobile a:hover{text-decoration: none;}
+
+/* Tooltip */
+
+.point1a{display: none;}
+.point1b{display: none;}
+.point1c{display: none;}
+
+.point2a{display: none;}
+.point2b{display: none;}
+.point2c{display: none;}
+
+.point3a{display: none;}
+.point3b{display: none;}
+.point3c{display: none;}
+
+.point4a{display: none;}
+.point4b{display: none;}
+.point4c{display: none;}
+
+
+/* Promociones */
+
+.cotizar{padding: 40px 15px 15px 15px;}
+#linea-titulo-promociones{width: 55%; margin-top: 10px;}
+#aviso{width: 100%; background-position-y:-395px; height: 535px; margin-bottom: 20px; }
+#aviso img{width: 100%;}
+#datos-promocion{margin: 0;}
+.solicita-cotizacion{width: 100%;}
+.solicita-cotizacion img{width: 100%;}
+#titulo h1{margin-top: 10px;}
+
+
+/* Cotizar */
+#linea-titulo-cotizar{width: 55%; margin-top: 10px;}
+#cotizar-content span{display: none;}
+#form-cotizar-mg{width: 100%; float: none; padding: 20px; margin-top: 20px;}
+
+/* Historia */
+
+.menu-empresa ul{margin: 0; overflow: hidden;}
+.menu-empresa li{width: 100%; text-align: center; padding: 15px 0; border-bottom: 1px solid #efefef;}
+.arrow-menu, .linea{display: none;}
+.historia-landing{padding: 0;}
+.titulo{margin-bottom: 40px;}
+.video-banner{padding: 0;}
+.video-banner iframe{height: 70%;}
+.thumbs-videos ul{padding: 0;}
+.thumbs-videos li{width: 50%; margin: 0; height: 100%;}
+
+#timeline-menu {height: auto;}
+#timeline-menu ul{overflow: hidden;}
+#timeline-menu li{width: 100%;  border-bottom: 1px solid #ffffff;}
+
+.carro1924{width: 100%;}
+.carro1924 img{width: 100%;}
+.desc1924{padding: 0 0 0 20px; width: 100%;}
+.desc1933{width: 100%;}
+.carro1933{width: 100%;}
+.carro1933 img{width: 100%;}
+.carro1962{width: 100%;}
+.carro1962 img{width: 100%;}
+
+#historia-content{background:none;}
+
+.empresa-resena{margin-top: 20px;}
+.mapa-skberge{
+	background: url("../images/empresa/mapa-background-mobi.jpg");
+	width: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 200px;}
+.sk1, .sk2, .sk3, .sk4, .sk5, .sk6, .sk7{display: none;}
+#respaldo-text{position: relative; width: 100%; padding-top: 220px;}
+
+/* Noticias */
+
+#linea-titulo-noticias{width: 71%; margin-top: 10px;}
+#imagen-destacada{width: 100%; background-size: 100%;}
+#imagen-destacada img{width: 100%;}
+#lista-noticias li{margin: 0 0 30px 0;}
+.vermas{width: 100%!important; float: left;}
+.compartir-noticia-bottom ul{ }
+
+}
+
+
+
+
+
+/* -------- menú Mobile ------ */
+
+
+.menu-mobile{background: #222222;}
+.navbar-toggle .icon-bar{background: #ffffff;}
+.item-mobile li a{
+	font-family: 'oswaldlight', Arial, sans-serif;
+    font-size: 16px;
+    color: #c4c4c4;
+}
+
+.item-mobile li a:hover{
+	font-family: 'oswaldlight', Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background: #5e5e5e;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+	background: #5e5e5e;
+}
+.navbar-brand{padding: 10px; height: 65px;}
+.navbar-brand img{height: 100%;}
+.navbar-toggle{border: 1px solid #aaaaaa; margin-top: 15px;}
+
+
+@media (min-width: 320px) and (max-width: 600px){
+	#financiamiento-content{
+		width: 104%;
+		height: 100%!important;
+	}
+	#santander-logo{
+		width: 100%;
+    	margin: 0 auto;
+    	text-align: center;
+    	margin-left: 0px!important;
+	}
+	#form-mantenimiento-mg{
+		width: 162%;
+	}
+
+	#form-mantenimiento-mg h2{
+		font-family: 'oswaldlight', Arial, sans-serif;
+		font-size: 21px;
+	}
+
+	.cotizar .tabla-content{
+		width: 261px;
+	}
+}
+
+@media (max-width: 600px) and (min-width: 400px) and (orientation: landscape){
+	.cotizar .tabla-content{
+		width: 371px;
+	}
+}

@@ -1,0 +1,24 @@
+.error{
+    background-color: #BC1010;
+    padding: 6px 12px!important;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold!important;
+    margin-left: 16px;
+    /*margin-top: 6px;*/
+    position: absolute;
+    font-family: sans-serif!important;
+    font-size: 10px!important;
+    line-height: 20px!important;
+
+}
+.error:before{ /* Este es un truco para crear una flechita */
+    content: '';
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #BC1010;
+    border-left: 8px solid transparent;
+    left: -14px;
+    position: absolute;
+    top: 8px!important;
+}

@@ -1,0 +1,358 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "mg3_test.php",
+			"settings":
+			{
+				"buffer_size": 32149,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/modulos",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/modulos/precios"
+	],
+	"file_history":
+	[
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg3xross.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/modulos/precios/mg3.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/talleres.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg5.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/concesionarios.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/cotizacion-enviada.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/empresa-mg.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/historia-mg.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/lifestyle-content.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/lifestyle.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg3-enviado.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg350-enviado.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg3xross-enviado.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg5-enviado.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg5-turbo-enviado.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg5-turbo.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/recomendacion-enviada.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/saic-motors-mg.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/servicio.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/skberge-mg.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/test-drive.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/testimoniales.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/lifestyle-datos.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg350.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/mg3.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/promociones.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/modelos.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/repuestos-accesorios.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/ukdesign.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/noticias.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/noticia-detalle.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/cotizar.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/index.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/modulos/analytics.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/modulos/remarketing.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/modulos/talleres.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/cotizar-datos-general.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/cotizar-datos.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/css/main.css",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/servicio-datos.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/class/class_list.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/conx/config.php",
+		"/Users/Esnider/Desktop/Web/MG/Ver_3.0/site/admin/system/database/drivers/pdo/pdo_result.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Schettini",
+			"slide",
+			"nav-button"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "mg3_test.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7319,
+								7127
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7492.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "mg.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mg5",
+				"mg5.php"
+			],
+			[
+				"mg350",
+				"mg350.php"
+			],
+			[
+				"mg3",
+				"mg3xross.php"
+			],
+			[
+				"mode",
+				"modelos.php"
+			],
+			[
+				"notici",
+				"noticia-detalle.php"
+			],
+			[
+				"noticias",
+				"noticias.php"
+			],
+			[
+				"uk",
+				"ukdesign.php"
+			],
+			[
+				"tallere",
+				"talleres.php"
+			],
+			[
+				"rep",
+				"repuestos-accesorios.php"
+			],
+			[
+				"servi",
+				"servicio.php"
+			],
+			[
+				"coti",
+				"cotizar.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"prom",
+				"promociones.php"
+			],
+			[
+				"pro",
+				"promociones.php"
+			],
+			[
+				"life",
+				"lifestyle.php"
+			],
+			[
+				"main",
+				"css/main.css"
+			],
+			[
+				"promo",
+				"promociones.php"
+			],
+			[
+				"promoci",
+				"promociones.php"
+			],
+			[
+				"servici",
+				"servicio.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

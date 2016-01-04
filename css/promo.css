@@ -1,0 +1,118 @@
+#promo {
+	background: url(../images/lucetecontumg/bg.jpg) no-repeat 0 0 transparent;
+	height: 856px;
+	padding: 65px 0 0 0;
+	position: relative;
+	width: 1000px;
+}
+
+#promo #titulo-promo {
+	background: url('../images/lucetecontumg/titulo.png') no-repeat 0 0 transparent;
+	height: 135px;
+	width: 1000px;
+}
+
+#promo #autos {
+	background: url('../images/lucetecontumg/autos.jpg') no-repeat 0 0 transparent;
+	height: 286px;
+	margin-top: 121px;
+	width: 1000px;
+}
+
+.botones {
+	position: absolute;
+	top: 603px ;
+	width: 245px;
+}
+
+.btn-custom {
+	display: inline-block;
+	height: 33px;
+}
+
+.btn-conocelo {
+	background: url('../images/lucetecontumg/btn-conocelo.gif') no-repeat 0 0 transparent;
+	width: 125px;
+	margin-right: 6px;
+}
+
+.btn-cotizar {
+	background: url('../images/lucetecontumg/btn-cotizar.gif') no-repeat 0 0 transparent;
+	width: 105px;
+}
+
+#botones-mg350 {
+	left: 134px ;
+}
+
+#botones-mg3 {
+	left: 394px;
+}
+
+#botones-mg5 {
+	left: 663px;
+}
+
+#mantenimineto{
+	position: absolute;
+    top: 80%;
+    left: 27%;
+}
+
+#celeration{
+	position: absolute;
+    top: 89%;
+    left: 4%;
+}
+
+#redes {
+	list-style: none;
+	margin-top: 568px;
+	width: auto;
+	margin-left: 14%;
+}
+
+#terminos{
+	position: absolute;
+    top: 104%;
+    left: 43%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#redes li {
+	display: inline-block;
+	height: 36px;
+	margin-right: 7px;
+	width: 124px;
+}
+
+#redes li#fb {
+	background: url('../images/lucetecontumg/btn-fb.png') no-repeat 0 0 transparent;
+}
+
+#redes li#tw {
+	background: url('../images/lucetecontumg/btn-tw.png') no-repeat 0 0 transparent;
+}
+
+#redes li#yt {
+	background: url('../images/lucetecontumg/btn-yt.png') no-repeat 0 0 transparent;
+}
+
+#redes li#ig {
+	background: url('../images/lucetecontumg/btn-ig.png') no-repeat 0 0 transparent;
+}
+
+#redes li#sf {
+	background: url('../images/lucetecontumg/btn-sf.png') no-repeat 0 0 transparent;
+}
+
+#redes li#pt {
+	background: url('../images/lucetecontumg/btn-pt.png') no-repeat 0 0 transparent;
+}
+
+#redes li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}

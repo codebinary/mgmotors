@@ -49,6 +49,7 @@
 												<th class="center">Dni</th>
 												<th class="center">Modelo</th>
 												<th class="center">Color</th>
+												<th class="center">Tienda</th>
 												<th class="center">Fecha</th>
 											</tr>
 										</thead>
@@ -62,6 +63,7 @@
 																		<td class="center">'.$cotizacione->dni.'</td>
 																		<td class="center">'.$cotizacione->modelo.'</td>
 																		<td class="center">'.$cotizacione->color.'</td>
+																		<td class="center">'.$cotizacione->tienda.'</td>
 																		<td class="center">'.$cotizacione->fecha.'</td>
 																	</tr>';
 													endforeach; ?>

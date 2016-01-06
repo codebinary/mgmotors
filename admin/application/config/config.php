@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://mgmotors.com.pe/admin/';
+$config['base_url']	= 'http://mgmotors.dev/admin/';
 
 /*
 |--------------------------------------------------------------------------

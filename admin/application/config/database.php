@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'mgmotors_dbadmin';
-$db['default']['password'] = 'Q6]0P#+{6;6{';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
 $db['default']['database'] = 'mgmotors_db';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
